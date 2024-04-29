@@ -1,2 +1,2 @@
 # Puzzle v4.0
-[[public/favicon.ico]]
+https://github.com/Liolg/puzzle_4.0/blob/main/public/favicon.ico
