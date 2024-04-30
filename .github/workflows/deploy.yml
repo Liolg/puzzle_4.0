@@ -16,9 +16,9 @@ jobs:
           node-version: "20"
       # Pick your own package manager and build script
       - run: npm install --no-package-lock
-      - run: npx nuxt build --preset github_pages
+      - run: npx nuxt serve --preset github_pages
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./.output/public
   # Deployment job
