@@ -38,7 +38,10 @@ jobs:
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+      - run: npx preview output/public/
+   #   - name: Deploy to GitHub Pages
+        
+        
+      #  id: deployment
+      #  uses: actions/deploy-pages@v3
         
