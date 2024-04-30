@@ -17,6 +17,8 @@ jobs:
       # Pick your own package manager and build script
       - run: npm install --no-package-lock
       - run: npx nuxi generate --preset github_pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
